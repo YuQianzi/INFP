@@ -18,7 +18,7 @@ TRAIN:
   OPTIMIZER: 'adam'
   LR_TYPE: 'multistep'
   LR: 0.0002
-  LR_STEP: [140,170]
+  LR_STEP: [100,120]
 
 TEST:
   BATCH_SIZE_PER_GPU: 1
