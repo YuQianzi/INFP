@@ -216,7 +216,7 @@ class fusion_module(nn.Module):
 
 class MultiFeatureFusion(nn.Module):
     def __init__(self, channels, n_segment=4, n_div=8):
-        super(IntegratedFusionModule, self).__init__()
+        super(MultiFeatureFusion, self).__init__()
         self.temporal_shift = TemporalShift(n_segment=n_segment, n_div=n_div)
         self.freq_extractor = freq_extractor(channels)
         self.fusion = fusion_module(channels, reduction_ratio=1)
