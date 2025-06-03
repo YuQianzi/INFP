@@ -9,8 +9,8 @@ import numpy as np
 import datasets
 from utils import train_util, log_util, anomaly_util
 from config.defaults import _C as config, update_config
-from models.wresnet1024_cattn_tsm import ASTNet as get_net1
-from models.wresnet2048_multiscale_cattn_tsmplus_layer6 import ASTNet as get_net2
+from models.wresnet1024_cattn_tsm import INFP as get_net1
+from models.wresnet2048_multiscale_cattn_tsmplus_layer6 import INFP as get_net2
 
 import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
@@ -134,8 +134,8 @@ def inference(config, data_loader, model):
 #     加载训练好的模型
 #     """
 #     # 替换为你的模型定义
-#     from models.wresnet1024_cattn_tsm import ASTNet  # 替换为实际的模型定义文件和类
-#     model = ASTNet(config='config/ped2_wresnet.yaml')
+#     from models.wresnet1024_cattn_tsm import INFP  # 替换为实际的模型定义文件和类
+#     model = INFP(config='config/ped2_wresnet.yaml')
 #     model.load_state_dict(torch.load(model_path))
 #     model.eval()  # 切换到评估模式
 #     return model
