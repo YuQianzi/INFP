@@ -17,4 +17,4 @@ To download IPAD datasets, please click this [link](https://drive.google.com/fil
 
 ## Train
 To run train script, please modify the config file and RUN:  
-`python train.py     --cfg config/ijcai.yaml`
+```python train.py     --cfg config/ijcai.yaml```
