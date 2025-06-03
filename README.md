@@ -16,5 +16,5 @@ yacs==0.1.8
 To download IPAD datasets, please click this [link](https://drive.google.com/file/d/1etL8kQ-veabLzTFGeC-Zzi8yBIUAt92R/view?usp=drive_link).
 
 ## Train
-To run train script   
+To run train script, please modify the config file and RUN:  
 `python train.py     --cfg config/ijcai.yaml`
