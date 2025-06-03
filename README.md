@@ -1,4 +1,4 @@
-**INFP: INdustrial Video Anomaly Detection via Frequency Prioritization**
+# INFP: INdustrial Video Anomaly Detection via Frequency Prioritization
 
 ## Requirements
 natsort==7.0.1  
