@@ -1,5 +1,7 @@
 import torch
 import torch.nn as nn
+from timm.models.layers.helpers import to_2tuple
+
 
 class TemporalShift(nn.Module):
     def __init__(self, n_segment=4, n_div=8, direction='left'):
@@ -115,7 +117,7 @@ class Frequency_Spectrum_Dynamic_Aggregation(nn.Module):
         self.processpha = nn.Sequential(
             nn.Conv2d(nc, nc, 1, 1, 0),
             nn.LeakyReLU(0.1, inplace=True),
-            SELayer(channel=nc),
+            SELayer(num_channels=nc),
             nn.Conv2d(nc, nc, 1, 1, 0))
 
     def forward(self, x):
