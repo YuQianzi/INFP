@@ -110,7 +110,7 @@ class Frequency_Spectrum_Dynamic_Aggregation(nn.Module):
         self.processmag = nn.Sequential(
             nn.Conv2d(nc, nc, 1, 1, 0),
             nn.LeakyReLU(0.1, inplace=True),
-            SELayer(channel=nc),
+            SELayer(num_channels=nc),
             nn.Conv2d(nc, nc, 1, 1, 0))
         self.processpha = nn.Sequential(
             nn.Conv2d(nc, nc, 1, 1, 0),
