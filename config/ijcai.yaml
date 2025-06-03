@@ -1,7 +1,7 @@
 GPUS: (0,1,2,3)
 WORKERS: 4
 PRINT_FREQ: 1
-OUTPUT_DIR: 'sensitive1'
+OUTPUT_DIR: 'ijcai'
 DATASET:
   DATASET: R01
   ROOT: '/data1/yqz/IPAD_dataset/'
