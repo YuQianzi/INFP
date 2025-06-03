@@ -1,18 +1,18 @@
 **INFP: INdustrial Video Anomaly Detection via Frequency Prioritization**
 
 ## Requirements
-natsort==7.0.1
-numpy==1.21.5
-Pillow==9.0.1
-scikit_learn==0.23.2
-scipy==1.7.3
-torch==1.7.1
-torchvision==0.8.2
-tqdm==4.64.0
-yacs==0.1.8
+natsort==7.0.1  
+numpy==1.21.5  
+Pillow==9.0.1  
+scikit_learn==0.23.2  
+scipy==1.7.3  
+torch==1.7.1  
+torchvision==0.8.2  
+tqdm==4.64.0  
+yacs==0.1.8  
 
 
-## DATASETS
+## Preparing Datasets
 To get IPAD datasets, please 
 
 ## Train
