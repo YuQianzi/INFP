@@ -13,7 +13,7 @@ yacs==0.1.8
 
 
 ## Preparing Datasets
-To download IPAD datasets, please click this [link](https://drive.google.com/file/d/1etL8kQ-veabLzTFGeC-Zzi8yBIUAt92R/view?usp=drive_link).
+Prepared IPAD datasets are available on [Google Drive](https://drive.google.com/file/d/1etL8kQ-veabLzTFGeC-Zzi8yBIUAt92R/view?usp=drive_link).
 
 ## Train
 To run train script, please modify the config file and RUN:  
