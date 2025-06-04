@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from timm.models.layers.helpers import to_2tuple
-
+import torch.nn.functional as F
 
 class TemporalShift(nn.Module):
     def __init__(self, n_segment=4, n_div=8, direction='left'):
